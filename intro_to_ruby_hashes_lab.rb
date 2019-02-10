@@ -1,5 +1,8 @@
-def new_hash
+require 'pry'
 
+def new_hash
+ pets = {}
+ pets
 end
 
 def actor
