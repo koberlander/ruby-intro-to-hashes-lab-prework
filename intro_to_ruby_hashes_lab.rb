@@ -12,7 +12,7 @@ def actor
 end
 
 def monopoly
-	monopoly = Hash.new(0)
+	
 	monopoly = {:railroads => {}}
 
 end
@@ -24,6 +24,7 @@ end
 
 def monopoly_with_third_tier
 	monopoly = {:railroads => {:pieces => 4, :names => {}}}
+	monopoly[:railroads] = Hash.new(0)
 	binding.pry
 end
 
