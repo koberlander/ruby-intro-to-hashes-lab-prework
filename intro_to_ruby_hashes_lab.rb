@@ -24,8 +24,8 @@ end
 
 def monopoly_with_third_tier
 # 	monopoly = {:railroads => {:pieces => 4, :names => {}}}
-	monopoly[:railroads][:names] = Hash.new(0)
-	monopoly[:railroads][:names] = {}
+	monopoly[:railroads][:names] = {Hash.new(0)}
+	#monopoly[:railroads][:names] = {}
 	binding.pry
 end
 
